@@ -4,7 +4,7 @@ LANGUAGE SQL
 AS
 $$
 BEGIN
-    INSERT INTO menu (TEST_ID,TEST_TYPE) VALUES (1001,'Ice Cream');
+    INSERT INTO TEST_TABLE (TEST_ID,TEST_TYPE) VALUES (1001,'Ice Cream');
     RETURN 'Insert successful';
 END;
 $$

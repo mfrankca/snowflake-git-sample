@@ -1,0 +1,10 @@
+CREATE OR REPLACE PROCEDURE menu_procedure(value VARCHAR)
+RETURNS STRING
+LANGUAGE SQL
+AS
+$$
+BEGIN
+    INSERT INTO menu (vMENU_ID,MENU_TYPE_ID,MENU_TYPE) VALUES (1001, 1,'Ice Cream');
+    RETURN 'Insert successful';
+END;
+$$

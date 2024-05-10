@@ -2,7 +2,7 @@ from snowflake.snowpark import Session
 
 
 def return_simple_table(session):
-    df = session.table("MENU")
+    df = session.table("TEST")
     return df
 
 
